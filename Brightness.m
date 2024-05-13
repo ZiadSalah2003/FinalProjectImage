@@ -4,7 +4,7 @@ function new_light_image = Brightness(img, offset)
 
     for ch = 1:chs  % loop through RGB channels
         for row = 1:rows   % loop through rows
-            for col = 1:cols    % loop through columns
+            for col = 1:cols    % loop through columns 
                 % Brightness Light
                 % Addition between pixel and offset
                 new_value_light = img(row, col, ch) + offset;
